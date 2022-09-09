@@ -90,6 +90,30 @@ main article{
 #breadcrumbs li:last-child::after{
     content: "";
 }
+#breadcrumbs li:/*....*/{
+    /*Gjør det siste elementet i brødsmulestien tykkere*/
+}
+
+/*Lag en klasse som du kaller for button og sett den på <a> som ligger i artikkelboksene på forsiden*/
+/*selector*/{
+    display:/*....*/;
+    /*gi en passene innvedig luft på elementet*/
+    /*sett en bakgrunnsfarge*/
+    /*fjern understreken*/
+    /*sett en passende farge*/
+}
+
+/*sett hover på knappen du laget over*/
+/*selector*/{
+    /*sett en annen bakgrunnsfarge ved hover*/
+    /*sett en annen farge ved hover*/
+}
+
+/*sett active på knappen du laget over, slik at knappen endrer seg når du trykker på den*/
+/*selector*/{
+    /*sett en annen bakgrunnsfarge ved active*/
+    /*sett en annen farge ved active*/
+}
 
 article img{
     /*Det er ikke optimalt å gjøre et mindre bilde større på denne måten, men dette er ment til øving så det er greit!*/
