@@ -1,0 +1,38 @@
+/*Optimailser font og font-str for papir*/
+/*selector*/{
+    /*...*/:/*...*/;
+    /*...*/:/*...*/;
+}
+
+/*Her stoppet vi i forelesningen*/
+aside {
+    display: none;
+  }
+  
+  /*Fjern breadcrumbs*/
+/*selector*/{
+    display:/*.....*/;
+  }
+
+  /*Fjern navigeringen*/
+/*selector*/{
+    display:/*.....*/;
+  }
+
+
+  /*Sjekk hvordan siden ser ut ved utskrift, nå skal det alle meste av unødvendige elementer være fjernet, men artikkelinnholdet fyller ikke hele siden*/
+  /*Sørg for at artikkel innholdet fyller hele bredden*/
+  /*TIPS: sjekk i "inspektøren/undersøk" i nettleseren og se hvilken bredde du må endre på*/
+  /*Fjern navigeringen*/
+/*selector*/{
+    width:/*.....*/;
+  }
+
+  /*bildet som befinner seg inni artikkel er litt stort, gjør det mindre 
+  og sett en page-break-after:always, slik at innholdet som kommer etter bilder havner på ny side*/
+
+  /*selector*/ img{
+    /*...*/:/*...*/;
+    page-break-after: /*...*/;
+
+  }

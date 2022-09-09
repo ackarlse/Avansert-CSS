@@ -1,3 +1,22 @@
-aside {
+/*Løsningsforslag på print*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#breadcrumbs{
     display: none;
-  }
+}
+nav{
+    display: none;
+}
+aside{
+    display: none;
+}
+.article-content{
+    width: 100%;
+}
+article img{
+    width: 300px;
+    page-break-after: always;
+}
+
